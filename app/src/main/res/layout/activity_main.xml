@@ -12,13 +12,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.jamesp1949.divisionedittext.MainActivity">
 
-        <!--app:placeHolder=" "-->
     <com.jamesp1949.divisionlib.DivisionEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:placeHolder=" "
         app:placeIndex="4"
         android:inputType="number"
-        android:maxLength="19"
+        android:maxLength="23"
         android:hint="请输入您的银行卡号"
         android:textColor="@android:color/holo_blue_bright"/>
     <com.jamesp1949.divisionlib.DivisionEditText
