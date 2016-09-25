@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DivisionLib</string>
+
+    <declare-styleable name="DivisionEditText">
+        <!--  占位符  -->
+        <attr name="placeHolder" format="string"/>
+        <!--  输入时每隔几个字符添加占位符 -->
+        <attr name="placeIndex" format="integer"/>
+    </declare-styleable>
+</resources>
