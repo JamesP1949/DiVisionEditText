@@ -8,14 +8,7 @@
     placeIndex必须配合placeHolder 单独使用不起作用
     
     直接在布局文件中使用：
-     <com.jamesp1949.divisionlib.DivisionEditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:placeIndex="4"
-        android:inputType="number"
-        android:maxLength="19"
-        android:hint="请输入您的银行卡号"
-        android:textColor="@android:color/holo_blue_bright"/>
+   
     <com.jamesp1949.divisionlib.DivisionEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
